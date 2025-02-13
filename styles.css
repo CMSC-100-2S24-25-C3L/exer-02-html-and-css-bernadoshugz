@@ -1,40 +1,81 @@
 .flex-container{
     display: flex;
+    gap: 15px;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    align-content: center;
-    background-color: burlywood;
-    border-style: double;
+    background-color: #deb887;
     border-color: cadetblue;
+    padding: 3%;
 }
 
-.flex-item{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    background-color: darkolivegreen;
-    border-style: double;
-    border-color: cadetblue;
+body{
+    background-color: burlywood;
 }
+
+.self{
+    max-width: 20%;
+    max-height: 20%;
+}
+
+
+.logo{
+    align-content: center;
+    justify-content: center;
+    border-radius: 50%;
+    max-width: 30%;
+    max-height: auto;
+}
+
+.flex-container div{
+    background-color: darkolivegreen;
+    padding: 1%;
+    border-color: black;
+    border: 5px solid;
+}
+
+ul {
+    text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 2%;
+  width: 95%;
+  background-color: burlywood;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: gray;
+  color: white;
+}
+
 
 p{
+    justify-content: space-evenly;
     font-size: large;
     font-family: Verdana;
     font-weight: normal;
     font-style: normal;
-    color: cornflowerblue;
+    color: black;
+    text-align: justify;
 }
 
 h1{
+    justify-content: center;
+    text-decoration: wavy;
+    text-align: center;
+    align-content: center;
+    align-items: baseline;
     font-size: larger;
     font-family: 'Franklin Gothic Medium';
     font-weight: 500;
     font-style: oblique;
-    color: cadetblue;
+    color: black;
     
 }
