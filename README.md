@@ -1,6 +1,6 @@
-Bernados, Hugz Christian M.
-BS Computer Science
-https://cmsc-100-2s24-25-c3l.github.io/exer-02-html-and-css-bernadoshugz/
+Bernados, Hugz Christian M. <br>
+BS Computer Science <br>
+https://cmsc-100-2s24-25-c3l.github.io/exer-02-html-and-css-bernadoshugz/ <br>
 
 Steps on how to create GitHub page
 1. On your resository, click the Settings menu
