@@ -1,0 +1,40 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: burlywood;
+    border-style: double;
+    border-color: cadetblue;
+}
+
+.flex-item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: darkolivegreen;
+    border-style: double;
+    border-color: cadetblue;
+}
+
+p{
+    font-size: large;
+    font-family: Verdana;
+    font-weight: normal;
+    font-style: normal;
+    color: cornflowerblue;
+}
+
+h1{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: 500;
+    font-style: oblique;
+    color: cadetblue;
+    
+}
